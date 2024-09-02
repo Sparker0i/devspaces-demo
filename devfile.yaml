@@ -4,10 +4,8 @@ metadata:
 projects:
   - name: repo
     git:
-      remotes:
-        origin: https://github.com/Sparker0i/devspaces-demo.git
-      checkoutFrom:
-        revision: main
+      remotes: https://github.com/Sparker0i/devspaces-demo.git
+      checkoutFrom: main
 components:
   - name: custom-container
     container:
