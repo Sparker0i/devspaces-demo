@@ -1,11 +1,6 @@
 schemaVersion: 2.2.0
 metadata:
   name: dbs-custom
-projects:
-  - name: repo
-    git:
-      remotes: https://github.com/Sparker0i/devspaces-demo.git
-      checkoutFrom: main
 components:
   - name: custom-container
     container:
