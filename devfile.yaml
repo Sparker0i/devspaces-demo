@@ -6,6 +6,8 @@ projects:
     git:
       remotes:
         origin: https://github.com/Sparker0i/devspaces-demo.git
+      checkoutFrom:
+        revision: main
 components:
   - name: custom-container
     container:
