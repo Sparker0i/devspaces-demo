@@ -1,7 +1,13 @@
 schemaVersion: 2.2.0
 metadata:
   name: dbs-custom
+projects:
+  - name: repo
+    git:
+      remotes:
+        origin: https://github.com/Sparker0i/devspaces-demo.git
 components:
   - name: custom-container
     container:
       image: default-route-openshift-image-registry.apps-crc.testing/openshift/spark:3.5.2-jdk8
+      mountSources: true
