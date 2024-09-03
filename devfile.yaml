@@ -4,5 +4,5 @@ metadata:
 components:
   - name: custom-container
     container:
-      image: default-route-openshift-image-registry.apps-crc.testing/openshift/spark:3.5.2-jdk8
+      image: default-route-openshift-image-registry.apps-crc.testing/openshift/udi-spark:3.5.2-jdk8
       mountSources: true
